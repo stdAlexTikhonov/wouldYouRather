@@ -1,0 +1,165 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Tahoma;
+  overflow: hidden;
+}
+
+.container {
+  /* border: 1px solid #ccc; */
+  margin: 0 auto;
+  width: 1000px;
+  height: 100vh;
+  box-sizing: border-box;
+  overflow: auto;
+}
+
+.homeContainer {
+
+  overflow: auto;
+
+  padding: 2px;
+}
+
+.question {
+  width: 70%;
+  border: 1px solid #ccc;
+  min-height: 150px;
+  margin: 10px auto;
+  /* margin: 10px; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.question-text {
+  border: 1px solid #ccc;
+  font-weight: bold;
+  width: 40%;
+  cursor: pointer;
+  text-decoration: none;
+  text-transform: capitalize;
+  color: black;
+}
+a:-webkit-any-link {
+  text-decoration: none;
+}
+
+h2 {
+  text-align: center;
+}
+
+textarea {
+  width: 45%;
+  display: inline-block;
+  margin: 20px;
+
+}
+
+.btn {
+  text-transform: uppercase;
+  font-size: 20px;
+  padding: 15px 80px;
+  margin: 0 38%;
+}
+
+.active {
+  font-weight: bold;
+}
+
+.nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  text-decoration: none;
+  
+}
+
+nav ul a:-webkit-any-link {
+  color: lightgreen;
+}
+
+.nav li:first-child {
+  padding-left: 0;
+}
+
+ul {
+  padding-left: 0;
+}
+
+li {
+  list-style-type: none;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.user-card {
+  width: 70%;
+  border: 1px solid #ccc;
+  min-height: 150px;
+  margin: 10px auto;
+  /* margin: 10px; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.user-card img, img {
+  border: 2px solid burlywood;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin: 0 auto;
+  display: block;
+}
+
+.user-card p {
+  font-weight: normal;
+  font-size: 14px;
+}
+
+.user-card div:first-child {
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.logout {
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login-form input {
+  margin: 10px;
+  width: 50%;
+  font-size: 16px;
+}
+
+.login-form .btn {
+  text-transform: uppercase;
+  font-size: 20px;
+  padding: 15px 80px;
+  margin: 0 38%;
+}
+
+.homeBtn {
+  background: lightgreen;
+  width: 50%;
+  margin: 0 auto;
+  border: none;
+  padding: 10px;
+  font-size: 20px;
+  display: block;
+  text-align: center;
+  cursor: pointer;
+}
